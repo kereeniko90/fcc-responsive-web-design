@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  
+  padding: 10px 25px 0 25px;
+  background-color: cornflowerblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.achievements {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#tribute-info {
+  display: block;
+}
+
+#image, #image1 {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  background-color: bisque;
+  min-width: 500px;
+  max-width: 80%;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#img-div {
+  margin: auto;
+  display: block;
+}
+
+#img-caption, #img-caption1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#img-caption {
+  padding-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
