@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is an assignment to create a survey form!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input class="box-position" name="name" id="name" type="text" placeholder="Please enter your name" required></label>
+        <label id="email-label" for="email">Email <input class="box-position" name="email" id="email" type="email" placeholder="Please enter your email" required></label>
+        <label id="number-label" for="number">Number <input class="box-position" name="number" id="number" type="number" min="1" max="10" placeholder="Please enter your number" required></label>
+      </fieldset>
+      <fieldset>
+        <label>What are you? 
+          <select id="dropdown">
+            <option value="1">Superman</option>
+            <option value="2">Batman</option>
+           </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What are your superpowers? 
+          <label class="checkinputlabel"><input class="checkinput" type="checkbox" value="1"> Invincible
+        </label>
+        <label class="checkinputlabel"><input class="checkinput" type="checkbox" value="2">
+         Invisible</label>
+      </fieldset>
+      <fieldset>
+        <label>What extra super powers do you want?
+          <label class="checkinputlabel"><input class="checkinput" type="radio" name="extrapower" value="1"> Fly
+        </label>
+        <label class="checkinputlabel"><input class="checkinput" type="radio" name="extrapower" value="2"> Super Jump
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How will you defeat demon king?
+          <textarea id="bio" name="bio" rows="10" cols="50" placeholder="I will start with.."></textarea>
+        </label>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
